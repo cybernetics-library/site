@@ -78,6 +78,9 @@ ul {
 
 figure {
     position: relative;
+    width: 320px;
+    margin: 0;
+    padding: 0;
 }
 figure img:nth-child(1) {
     width: 340px;
@@ -104,7 +107,7 @@ figure img:nth-child(3) {
   justify-content: space-around;
 }
 
-.keynotes li {
+.speakers li {
   max-width: 320px;
   flex: 1;
 }
@@ -115,4 +118,20 @@ figure img:nth-child(3) {
   margin-top: 22em;
   color: #ebebeb;
   box-shadow: 2px 2px 6px #e6d006;
+}
+
+.one-on-ones ul {
+  display: block;
+  text-align: center;
+}
+.one-on-ones li {
+  display: inline-block;
+  max-width: none;
+  text-align: left;
+}
+.one-on-ones li > div {
+  display: inline-block;
+  vertical-align:top;
+  max-width: 320px;
+  margin: 0 1em;
 }
