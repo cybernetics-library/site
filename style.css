@@ -6,8 +6,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'BagnardRegular';
-font-weight: normal;
-font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -16,7 +16,13 @@ html {
 }
 
 a, a:visited {
-  text-decoration: none;
+  color: #fff;
+}
+
+.tickets a {
+  margin: 0 1.5em;
+  display: inline-block;
+  font-size: 0.7em;
 }
 
 ::selection {
@@ -57,6 +63,11 @@ h1 {
   width: 100%;
 }
 
+h4 {
+  text-align: center;
+  font-size: 4em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -76,7 +87,7 @@ figure svg {
     top: -2px;
 }
 
-.keynotes a, a:visited {
+.keynotes a, .keynotes a:visited {
   text-decoration: none;
   color: red;
   position: absolute;
