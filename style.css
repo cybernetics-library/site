@@ -67,7 +67,7 @@ figure {
     position: relative;
 }
 figure img {
-    width: 100%;
+    width: 340px;
     visibility: hidden;
 }
 figure svg {
@@ -76,9 +76,9 @@ figure svg {
     top: -2px;
 }
 
-.keynotes a, a:visited {
+.keynotes a:visited {
   text-decoration: none;
-  color: red;
+  color: rgb(237, 128, 0);
   position: absolute;
   bottom: 1em;
   width: 100%;
@@ -88,6 +88,8 @@ figure svg {
   background: #f6ffc9;
   padding: 0.2em 0.3em;
 }
+
+
 
 .keynotes ul {
   display: flex;
