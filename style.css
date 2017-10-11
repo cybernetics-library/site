@@ -54,11 +54,46 @@ h1 {
   width: 100%;
 }
 
-#background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+figure {
+    position: relative;
+}
+figure img {
+    width: 100%;
+    visibility: hidden;
+}
+figure svg {
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.keynotes a, a:visited {
+  text-decoration: none;
+  color: red;
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 1px 1px 8px rgba(255,0,0,0.6);
+  border: 1px solid red;
+  background: #f6ffc9;
+  padding: 0.2em 0.3em;
+}
+
+.keynotes ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.keynotes li {
+  max-width: 320px;
+  flex: 1;
+}
+
+.keynotes p {
+  background: blue;
+  padding: 0.5em;
+  color: #eee;
+  box-shadow: 2px 2px 6px rgba(255,0,0,0.6);
 }
