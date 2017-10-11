@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #fafafa;
+  color: #222;
+}
+
+::selection {
+  background: #fff;
+  color: #000;
+}
+::-moz-selection {
+  background: #fff;
+  color: #000;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'NimbusSanLBold', 'Helvetica Neue', sans-serif;
+  font-size: 6em;
+  padding: 1em;
+  width: 100%;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
