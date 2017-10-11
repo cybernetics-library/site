@@ -15,6 +15,10 @@ html {
   color: #ebebeb;
 }
 
+a, a:visited {
+  text-decoration: none;
+}
+
 ::selection {
   background: #fff;
   color: #000;
@@ -35,9 +39,8 @@ body {
 }
 
 .centered {
-text-align: center;
-align-items: center;
-  justify-content: center;
+  display: block;
+  margin: 0 auto;
 }
 
 marquee {
@@ -52,6 +55,12 @@ h1 {
   padding-top: .1em;
   padding-bottom: .0em;
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 figure {
