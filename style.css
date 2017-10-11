@@ -16,22 +16,24 @@ html {
 }
 
 a, a:visited {
-  color: #fff;
+  color: #ebebeb;
 }
 
 .tickets a {
   margin: 0 1.5em;
   display: inline-block;
-  font-size: 0.7em;
+  font-size: 0.6em;
+  /*color: #a600ff;*/
+  color: white;
 }
 
 ::selection {
-  background: #fff;
-  color: #000;
+  background: #ffe600;
+  color: #690393;
 }
 ::-moz-selection {
-  background: #fff;
-  color: #000;
+  background: #ffe600;
+  color: #690393;
 }
 
 body {
@@ -77,30 +79,24 @@ ul {
 figure {
     position: relative;
 }
-figure img {
+figure img:nth-child(1) {
     width: 340px;
-    visibility: hidden;
-}
-figure svg {
     position: absolute;
     left: 0;
     top: -2px;
 }
-
-.keynotes a:visited {
-  text-decoration: none;
-  color: rgb(237, 128, 0);
-  position: absolute;
-  bottom: 1em;
-  width: 100%;
-  z-index: 1;
-  box-shadow: 1px 1px 8px rgba(255,0,0,0.6);
-  border: 1px solid red;
-  background: #f6ffc9;
-  padding: 0.2em 0.3em;
+figure img:nth-child(2) {
+    width: 280px;
+    position: absolute;
+    left: 0;
+    top: -2px;
 }
-
-
+figure img:nth-child(3) {
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
 
 .keynotes ul {
   display: flex;
@@ -114,8 +110,9 @@ figure svg {
 }
 
 .keynotes p {
-  background: blue;
+  background: #1438d2;
   padding: 0.5em;
-  color: #eee;
-  box-shadow: 2px 2px 6px rgba(255,0,0,0.6);
+  margin-top: 22em;
+  color: #ebebeb;
+  box-shadow: 2px 2px 6px #e6d006;
 }
