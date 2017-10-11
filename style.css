@@ -5,11 +5,14 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'BagnardRegular';
+font-weight: normal;
+font-style: normal;
 }
 
 html {
-  background: #fafafa;
-  color: #222;
+  background: #0028d1;
+  color: #ebebeb;
 }
 
 ::selection {
@@ -22,17 +25,32 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
-  height: 100vh;
-  overflow: hidden;
+
+}
+
+.main-items {
+  padding: 1em;
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+.centered {
+text-align: center;
+align-items: center;
+  justify-content: center;
+}
+
+marquee {
+  font-size: 3em;
+  padding: 0;
+  padding-top: .2em;
 }
 
 h1 {
-  font-family: 'NimbusSanLBold', 'Helvetica Neue', sans-serif;
   font-size: 6em;
-  padding: 1em;
+  padding: .5em;
+  padding-top: .1em;
+  padding-bottom: .0em;
   width: 100%;
 }
 
