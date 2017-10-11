@@ -76,10 +76,13 @@ ul {
 
 figure {
     position: relative;
+    width: 320px;
+    margin: 0;
+    padding: 0;
 }
 figure img {
-    width: 340px;
     visibility: hidden;
+    width: 100%;
 }
 figure svg {
     position: absolute;
@@ -87,7 +90,7 @@ figure svg {
     top: -2px;
 }
 
-.keynotes a:visited {
+.speakers a:visited {
   text-decoration: none;
   color: rgb(237, 128, 0);
   position: absolute;
@@ -102,20 +105,36 @@ figure svg {
 
 
 
-.keynotes ul {
+.speakers ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
-.keynotes li {
+.speakers li {
   max-width: 320px;
   flex: 1;
 }
 
-.keynotes p {
+.speakers p {
   background: blue;
   padding: 0.5em;
   color: #eee;
   box-shadow: 2px 2px 6px rgba(255,0,0,0.6);
+}
+
+.one-on-ones ul {
+  display: block;
+  text-align: center;
+}
+.one-on-ones li {
+  display: inline-block;
+  max-width: none;
+  text-align: left;
+}
+.one-on-ones li > div {
+  display: inline-block;
+  vertical-align:top;
+  max-width: 320px;
+  margin: 0 1em;
 }
