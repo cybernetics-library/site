@@ -5,14 +5,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'BagnardRegular';
+  font-family: 'bagnard';
   font-weight: normal;
   font-style: normal;
 }
 
 html {
   background: #0028d1;
-  color: #ebebeb;
+  color: #ec5332;
 }
 
 a, a:visited {
@@ -40,9 +40,17 @@ body {
 
 }
 
+.arrow {
+  height: 1064px;
+  left: 10em;
+  top: 2em;
+  position: absolute;
+}
+
 .main-items {
   padding: 1em;
-  font-size: 2em;
+  padding-right: 15em;
+  font-size: 2.2em;
   line-height: 1.3em;
 }
 
@@ -52,17 +60,24 @@ body {
 }
 
 marquee {
+
+font-family: 'StepsMonoRegular';
+  font-weight: normal;
+  font-style: normal;
   font-size: 3em;
   padding: 0;
   padding-top: .2em;
+  color: #ebebeb;
 }
 
 h1 {
+    font-family: 'StepsMonoRegular';
   font-size: 6em;
   padding: .5em;
   padding-top: .1em;
   padding-bottom: .0em;
   width: 100%;
+  font-weight: 700;
 }
 
 h4 {
@@ -81,9 +96,15 @@ figure {
     width: 320px;
     margin: 0;
     padding: 0;
+}
+/*orange  -  #ec5332*/
 
-          -webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
-          filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+
+figure img {
+  -webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+  filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+  -webkit-box-shadow: 0 0 20px #ec5332;
+        box-shadow: 0 0 20px #ec5332;
 }
 
 figure img:nth-child(1) {
@@ -93,22 +114,28 @@ figure img:nth-child(1) {
     top: -2px;
 }
 figure img:nth-child(2) {
-    width: 280px;
-    position: absolute;
-    left: 29px;
-    top: 32px;
+  width: 298px;
+  position: absolute;
+  left: 20px;
+  top: 21px;
 }
 figure img:nth-child(3) {
-    width: 220px;
-    position: absolute;
-    left: 58px;
-    top: 60px;
+  width: 256px;
+  position: absolute;
+  left: 41px;
+  top: 42px;
 }
 
 .speakers li {
   max-width: 320px;
   flex: 1;
   margin: 2em;
+  line-height: 20px;
+}
+
+
+h4 {
+  font-weight: 400;
 }
 
 .keynotes ul {
@@ -127,8 +154,7 @@ figure img:nth-child(3) {
   background: #1438d2;
   padding: 0.5em;
   margin-top: 22em;
-  color: #ebebeb;
-  box-shadow: 2px 2px 6px #e6d006;
+  box-shadow: 2px 2px 6px #ec5332;
 }
 
 .keynotes li > div {
@@ -158,6 +184,6 @@ figure img:nth-child(3) {
   background: #1438d2;
   padding: 0.5em;
   margin-top: 22em;
-  color: #ebebeb;
-  box-shadow: 2px 2px 6px #e6d006;
+  color: #ec5e40;
+  box-shadow: 2px 2px 6px #ec5332;
 }
