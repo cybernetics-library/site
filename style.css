@@ -1,9 +1,3 @@
-@font-face {
-    font-family: pano;
-    src: url("assets/pano.otf") format("opentype");
-}
-
-
 * {
   box-sizing: border-box;
 }
@@ -20,47 +14,34 @@ html, body {
 html {
   background: #0028d1;
   /*color: #ec5332;*/
-
-    color: black;
+  color: black;
 }
 
 a, a:visited {
   color: #ebebeb;
 }
 
-
 ::selection {
   background: #8d00aa;
   color: rgb(228, 146, 23);
 }
+
 ::-moz-selection {
   background: #8d00aa;
   color: rgb(228, 146, 23);
 }
 
 body {
-
-  position:relative;
-
+  position: relative;
 }
 
 .arrow {
   height: 1720px;
-      left: 12em;
-      top: 46em;
-      position: absolute;
-      z-index: -10;
-
-}
-
-.arrow2 {
-  height: 1684px;
-  left: 5em;
-  top: 11em;
+  left: 12em;
+  top: 52em;
   position: absolute;
   z-index: -10;
 }
-
 
 .main-items {
   padding: 1em;
@@ -68,22 +49,21 @@ body {
   font-size: 1.6em;
   line-height: 1.3em;
   padding-left: 10em;
-  padding-top: 1em;
+  padding-top: 3em;
   color: black;
 }
 
-.main-items-2{
-
-}
+.main-items-2 {}
 
 .centered {
   display: block;
   margin: 0 auto;
-
+  padding-left: 3em;
 }
 
 .gif {
-      width: 18vw;
+  width: 370px;
+  ;
   margin-top: 16em;
   padding-bottom: 14em;
 }
@@ -95,7 +75,7 @@ body {
 }
 
 marquee {
-font-family: 'StepsMonoRegular';
+  font-family: 'StepsMonoRegular';
   font-weight: normal;
   font-style: normal;
   font-size: 3em;
@@ -109,11 +89,8 @@ font-family: 'StepsMonoRegular';
   display: inline-block;
   font-size: 0.6em;
   /* color: #a600ff; */
-
   /*margin-bottom: 40em;*/
 }
-
-
 
 h1 {
   font-family: 'StepsMonoRegular';
@@ -123,24 +100,24 @@ h1 {
   padding-top: .5em;
   padding-bottom: .5em;
   width: 100%;
-  font-weight: 700;
+  font-weight: 400;
   color: #ebebeb;
-  background-color: black;
-  border-top: 5px solid #aa9e00;
+  background: none;
+  border-top: 5px solid #ebebeb;
+  border-bottom: 5px solid #ebebeb;
   margin-top: 0;
   margin-bottom: 0;
   /*yellow*/
   /*background-color: #aa9e00;*/
-
-
 }
 
 h4 {
   text-align: center;
   font-size: 4em;
-  padding-left: .7em;
-  /*font-weight: 400;*/
-    font-family: 'StepsMonoRegular';
+  padding-left: 1em;
+  /* font-weight: 400; */
+  font-family: 'StepsMonoRegular';
+  margin-top: 2.2em;
 }
 
 ul {
@@ -151,16 +128,15 @@ ul {
   margin: 0 auto;
 }
 
-
 .speakers li {
   text-align: center;
-    line-height: 1.2em;
+  line-height: 1.2em;
 }
 
-.speakers li a{
+.speakers li a {
   color: inherit;
   text-decoration: none;
-    box-shadow: inset 0 0px 0 #0028d1, inset 0 -1px 0;
+  box-shadow: inset 0 0px 0 #0028d1, inset 0 -1px 0;
 }
 
 .speakers {
@@ -172,48 +148,28 @@ ul {
   display: block;
   text-align: left;
   font-size: 2em;
-      padding-left: 2em;
+  padding-left: 2em;
   /*justify-content: space-around;*/
 }
 
 .speakers ul li:before {
-		 /*content: "→ \0020";*/
-	     }
+  /*content: "→ \0020";*/
+}
 
+#left {
+  background: none;
+  border-left: 5px solid #ebebeb;
+  border-right: 5px solid #ebebeb;
+  /*background-image: url("assets/wires-s.jpg");
+        background-repeat: repeat;*/
+  position: absolute;
+}
 
-       #left {
-       	background: black;
-        border-left: 5px solid #aa9e00;
-       	position: absolute;
-       	}
-       	#left{
-          top: 0;
-          bottom: 0;
-          width: 7em;
-            margin-top: 4.1em;
-          height: 100;
-          z-index: 1000;
-       		}
-
-
-
-
-       /*#top, #left {
-       	background: #ebebeb;
-       	position: absolute;
-       	}
-       	#left{
-       		top: 0; bottom: 0;
-       		width: 40px;
-            margin-top: 4.1em;
-       		}
-       		#left { left: 0; }
-
-
-       	#top{
-          left: 0;
-          right: 0;
-          height: 15em;
-          margin-top: 4.1em;
-       		}
-       		#top { top: 0; }*/
+#left {
+  top: 0;
+  bottom: 0;
+  width: 7em;
+  margin-top: 4.1em;
+  height: 100;
+  z-index: 1000;
+}
