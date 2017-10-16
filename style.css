@@ -22,18 +22,23 @@ a, a:visited {
 }
 
 ::selection {
-  background: #8d00aa;
-  color: rgb(228, 146, 23);
+  background: #f2ff00;
+  color:  #d400ab;
 }
 
 ::-moz-selection {
-  background: #8d00aa;
-  color: rgb(228, 146, 23);
+  background: #f2ff00;
+  color: #d400ab;
 }
 
 body {
   position: relative;
 }
+
+a:hover {
+    background-color: #bd1dc6;
+}
+
 
 .arrow {
   height: 1720px;
@@ -128,6 +133,10 @@ ul {
   margin: 0 auto;
 }
 
+.keynotes {
+  margin-top: 3.3em;
+}
+
 .speakers li {
   text-align: center;
   line-height: 1.2em;
@@ -135,9 +144,33 @@ ul {
 
 .speakers li a {
   color: inherit;
-  text-decoration: none;
-  box-shadow: inset 0 0px 0 #0028d1, inset 0 -1px 0;
+  text-decoration: underline;
+
+  /*box-shadow: inset 0 0px 0 #0028d1, inset 0 -1px 0;*/
+  text-decoration-skip: ink;
 }
+
+.speakers li a:hover::before {
+    content:'↬ ';
+    color: #ebebeb;
+    text-decoration: none;
+    left: -13px;   /* equal to padding-left */
+}
+
+.speakers li a:hover::after {
+    content:' ↫';
+    color: #ebebeb;
+    text-decoration: none;
+    left: -13px;   /* equal to padding-left */
+}
+
+
+.speakers li a:hover {
+    background-color: #0028d1;
+
+    /*text-decoration: none;*/
+}
+
 
 .speakers {
   text-align: center;
@@ -152,9 +185,6 @@ ul {
   /*justify-content: space-around;*/
 }
 
-.speakers ul li:before {
-  /*content: "→ \0020";*/
-}
 
 #left {
   background: none;
