@@ -234,7 +234,11 @@ ul {
   /*z-index: 1000;*/
 }
 
-@media only screen and (max-width: 665px) {
+.stars {
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
 html {
   font-size: .5em;
 }
@@ -280,7 +284,7 @@ padding-left: 0px;
 .stars {
     display: block;
     width: 410px;
-    margin-left: -2em;
+    padding-top: 2em;
     padding-bottom: 0em;
 }
 
