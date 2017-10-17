@@ -233,3 +233,60 @@ ul {
   height: 100;
   /*z-index: 1000;*/
 }
+
+@media only screen and (max-width: 665px) {
+html {
+  font-size: .5em;
+}
+
+
+#left {
+display: none;
+}
+
+.main-items {
+  margin-left: 0px;
+  padding-right: 3em;
+}
+
+
+.arrow {
+    height: 400px;
+    left: 2em;
+    top: 90em;
+    display: none;
+}
+
+h4 {
+padding-left: 0px;
+}
+
+
+.speakers ul {
+  padding-left: 0px;
+  /*justify-content: space-around;*/
+}
+
+.gif {
+    width: 150px;
+    padding-bottom: 14em;
+}
+
+.centered {;
+    padding-left: 0px;
+}
+
+
+.stars {
+    display: block;
+    width: 410px;
+    margin-left: -2em;
+    padding-bottom: 0em;
+}
+
+.speakers {
+      margin-top: -9em;
+}
+
+
+}
