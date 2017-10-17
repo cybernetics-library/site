@@ -13,6 +13,7 @@ html, body {
 
 html {
   background: #0028d1;
+  /*#0028d1;*/
   /*color: #ec5332;*/
   color: black;
 }
@@ -22,13 +23,13 @@ a, a:visited {
 }
 
 ::selection {
-  background: #f2ff00;
-  color:  #d400ab;
+  background: #ebebeb;
+    color: black;
 }
 
 ::-moz-selection {
-  background: #f2ff00;
-  color: #d400ab;
+  background: #ebebeb;
+  color: black;
 }
 
 body {
@@ -43,9 +44,9 @@ a:hover {
 .arrow {
   height: 1720px;
   left: 9em;
-top: 64em;
+  top: 68em;
   position: absolute;
-  z-index: -10;
+  z-index: 10;
 }
 
 #quote {
@@ -68,14 +69,23 @@ top: 64em;
 .main-items {
   padding: 1em;
   padding-right: 15em;
+  /*background-color: rgba(#bf9412, 0.77) !important;*/
+    background-color: #bf9412;
   font-size: 1.6em;
   line-height: 1.3em;
-  padding-left: 10em;
   padding-top: 3em;
   color: black;
+      padding-bottom: 3em;
+          margin-left: 4.2em;
+              padding-left: 4em;
 }
 
-.main-items-2 {}
+.main-items p {
+    position: relative;
+    z-index: 20;
+}
+
+
 
 .centered {
   display: block;
@@ -114,6 +124,10 @@ marquee {
   font-size: 0.6em;
   /* color: #a600ff; */
   /*margin-bottom: 40em;*/
+}
+
+.tickets {
+      border-bottom: 5px solid #ebebeb;
 }
 
 h1 {
@@ -192,8 +206,10 @@ ul {
 
 
 .speakers {
+  position: relative;
   text-align: center;
   margin-top: 15em;
+  z-index: 1000;
 }
 
 .speakers ul {
@@ -215,5 +231,5 @@ ul {
   width: 7em;
   margin-top: 4.1em;
   height: 100;
-  z-index: 1000;
+  /*z-index: 1000;*/
 }
