@@ -42,18 +42,20 @@ a:hover {
 
 
 .arrow {
-  height: 1720px;
-  left: 9em;
-  top: 68em;
+  width: 80%;
   position: absolute;
   z-index: 10;
+  left: 10%;
+  top: 1500px;
 }
 
 #quote {
   color: #ebebeb;
   font-size: 1.5em;
   line-height: 1.1em;
-    font-family: 'StepsMonoRegular';
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'StepsMonoRegular';
 }
 
 
@@ -62,29 +64,31 @@ a:hover {
 }
 
 #name {
-  font-size: .5em;
-    color: black;
+  font-size: .6em;
+  color: black;
+  right: 0;
+  position: absolute;
 }
 
+
+/* main */
+
 .main-items {
-  padding: 1em;
-  padding-right: 15em;
-  /*background-color: rgba(#bf9412, 0.77) !important;*/
-    background-color: #bf9412;
+  background-color: #b987c5;
   font-size: 1.6em;
   line-height: 1.3em;
-  padding-top: 3em;
   color: black;
-      padding-bottom: 3em;
-          margin-left: 4.2em;
-              padding-left: 4em;
+  padding: 100px;
+  margin: 0 100px;
+  height: 100%;
+  border-bottom: 5px solid #ebebeb;
 }
 
 .main-items p {
     position: relative;
     z-index: 20;
+    margin: 100px 0 0 0;
 }
-
 
 
 .centered {
@@ -116,8 +120,6 @@ marquee {
   /*background-color: #ec5332;;*/
 }
 
-
-
 .tickets a {
   margin: 0 1em;
   display: inline-block;
@@ -127,26 +129,23 @@ marquee {
 }
 
 .tickets {
-      border-bottom: 5px solid #ebebeb;
+  border-bottom: 5px solid #ebebeb;
+  vertical-align: top;
 }
 
 h1 {
   font-family: 'StepsMonoRegular';
   font-size: 7em;
   text-align: center;
-  padding: 0.5em;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding: 50px 110px;
   width: 100%;
   font-weight: 400;
   color: #ebebeb;
   background: none;
   border-top: 5px solid #ebebeb;
   border-bottom: 5px solid #ebebeb;
-  margin-top: 0;
-  margin-bottom: 0;
-  /*yellow*/
-  /*background-color: #aa9e00;*/
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 h4 {
@@ -206,32 +205,41 @@ ul {
 
 
 .speakers {
-  position: relative;
-  text-align: center;
-  margin-top: 15em;
-  z-index: 1000;
+    position: relative;
+    text-align: center;
+    margin-top: 15em;
+    z-index: 1000;
 }
 
 .speakers ul {
-  display: block;
-  text-align: left;
-  font-size: 2em;
-  padding-left: 2em;
-  /*justify-content: space-around;*/
+    display: block;
+    text-align: left;
+    font-size: 2em;
+    padding-left: 2em;
+    /*justify-content: space-around;*/
 }
 
 
-#left {
-  background: none;
-  border-left: 5px solid #ebebeb;
-  border-right: 5px solid #ebebeb;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 7em;
-  margin-top: 4.1em;
-  height: 100;
-  /*z-index: 1000;*/
+#left-col {
+    background: none;
+    border-left: 5px solid #ebebeb;
+    border-right: 5px solid #ebebeb;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100%;
+}
+
+#right-col {
+    border-left: 5px solid #ebebeb;
+    border-right: 5px solid #ebebeb;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
 }
 
 .stars {
@@ -239,58 +247,51 @@ ul {
 }
 
 @media only screen and (max-width: 1025px) {
-html {
-  font-size: .5em;
-}
+
+    html {
+        font-size: .5em;
+    }
 
 
-#left {
-display: none;
-}
+    #left-col,
+    #right-col {
+        display: none;
+    }
 
-.main-items {
-  margin-left: 0px;
-  padding-right: 3em;
-}
+    .main-items {
+        margin: 0;
+    }
 
-
-.arrow {
-    height: 400px;
-    left: 2em;
-    top: 90em;
-    display: none;
-}
-
-h4 {
-padding-left: 0px;
-}
+    h4 {
+        padding-left: 0px;
+    }
 
 
-.speakers ul {
-  padding-left: 0px;
-  /*justify-content: space-around;*/
-}
+    .speakers ul {
+        padding-left: 0px;
+        /*justify-content: space-around;*/
+    }
 
-.gif {
-    width: 150px;
-    padding-bottom: 14em;
-}
+    .gif {
+        width: 150px;
+        padding-bottom: 14em;
+    }
 
-.centered {;
-    padding-left: 0px;
-}
+    .centered {;
+               padding-left: 0px;
+              }
 
 
-.stars {
-    display: block;
-    width: 410px;
-    padding-top: 2em;
-    padding-bottom: 0em;
-}
+    .stars {
+        display: block;
+        width: 410px;
+        padding-top: 2em;
+        padding-bottom: 0em;
+    }
 
-.speakers {
-      margin-top: -9em;
-}
+    .speakers {
+        margin-top: -9em;
+    }
 
 
 }
