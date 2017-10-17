@@ -42,10 +42,27 @@ a:hover {
 
 .arrow {
   height: 1720px;
-  left: 12em;
-  top: 52em;
+  left: 9em;
+top: 64em;
   position: absolute;
   z-index: -10;
+}
+
+#quote {
+  color: #ebebeb;
+  font-size: 1.5em;
+  line-height: 1.1em;
+    font-family: 'StepsMonoRegular';
+}
+
+
+.mark{
+    color: black;
+}
+
+#name {
+  font-size: .5em;
+    color: black;
 }
 
 .main-items {
@@ -88,6 +105,8 @@ marquee {
   color: #ebebeb;
   /*background-color: #ec5332;;*/
 }
+
+
 
 .tickets a {
   margin: 0 1em;
@@ -191,9 +210,6 @@ ul {
   border-left: 5px solid #ebebeb;
   border-right: 5px solid #ebebeb;
   position: absolute;
-}
-
-#left {
   top: 0;
   bottom: 0;
   width: 7em;
