@@ -64,7 +64,7 @@ a:hover {
 }
 
 #name {
-  font-size: .6em;
+  font-size: 0.65em;
   color: black;
   right: 0;
   position: absolute;
@@ -117,21 +117,37 @@ marquee {
   font-size: 3em;
   padding: 0;
   color: #ebebeb;
-  /*background-color: #ec5332;;*/
+  vertical-align: top;
+}
+
+.top-marquee {
+    padding-top: 10px;
+}
+
+.bottom-marquee {
+    padding-top: 10px;
+    padding-bottom: 4px;
+    border-bottom: 5px solid #ebebeb;
+}
+
+
+/* tickets */
+
+.tickets {
+    border-bottom: 5px solid #ebebeb;
+    vertical-align: top;
 }
 
 .tickets a {
-  margin: 0 1em;
+  margin: 0;
   display: inline-block;
   font-size: 0.6em;
-  /* color: #a600ff; */
-  /*margin-bottom: 40em;*/
 }
 
-.tickets {
-  border-bottom: 5px solid #ebebeb;
-  vertical-align: top;
+.tickets-arrow {
+    margin: 0 0.5em 0 0.9em;
 }
+
 
 h1 {
   font-family: 'StepsMonoRegular';
@@ -176,8 +192,7 @@ ul {
 
 .speakers li a {
   color: inherit;
-  text-decoration: underline;
-
+  text-decoration: none;
   /*box-shadow: inset 0 0px 0 #0028d1, inset 0 -1px 0;*/
   text-decoration-skip: ink;
 }
@@ -185,14 +200,12 @@ ul {
 .speakers li a:hover::before {
     content:'↬ ';
     color: #ebebeb;
-    text-decoration: none;
     left: -13px;   /* equal to padding-left */
 }
 
 .speakers li a:hover::after {
     content:' ↫';
     color: #ebebeb;
-    text-decoration: none;
     left: -13px;   /* equal to padding-left */
 }
 
