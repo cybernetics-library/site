@@ -113,6 +113,7 @@ marquee {
   font-size: 3em;
   padding: 0;
   color: #ebebeb;
+  display: block; 
   /*background-color: #ec5332;;*/
 }
 
