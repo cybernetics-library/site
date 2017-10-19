@@ -28,19 +28,20 @@
 
 <body>
 
-  <div id="left"></div>
-  <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" direction="left">Nov 18, 12-7PM @ <a href="http://www.primeproduce.org/">Prime Produce</a>, 424 W 54th St, NYC</marquee>
+  <div id="left-col"></div>
+  <div id="right-col"></div>
+  <marquee class="top-marquee" onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" direction="left">Nov 18, 12-7PM @ <a href="http://www.primeproduce.org/">Prime Produce</a>, 424 W 54th St, NYC</marquee>
   <!-- <div id="top"> -->
   <h1>Cybernetics Conference</h1>
   <!-- </div> -->
-  <marquee behavior="scroll" direction="right" class="tickets">
-    <a href="#">Tickets</a>
-    <a href="#">Tickets</a>
-    <a href="#">Tickets</a>
-    <a href="#">Tickets</a>
-    <a href="#">Tickets</a>
-    <a href="#">Tickets</a>
-    <a href="#">Tickets</a>
+  <marquee class="bottom-marquee" behavior="scroll" direction="right" class="tickets">
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
+    <a href="#">Tickets</a><span class="tickets-arrow">→</span>
     <a href="#">Tickets</a>
   </marquee>
 
@@ -48,8 +49,6 @@
 
 
   <!-- <h2>#CyberCon</h2> -->
-
-  <div class="main-items">
 
     <div class="col-md-10 col-md-offset-1">
       <div class="page-head row">
