@@ -24,7 +24,7 @@ a, a:visited {
 
 ::selection {
   background: #ebebeb;
-    color: black;
+  color: black;
 }
 
 ::-moz-selection {
@@ -36,10 +36,137 @@ body {
   position: relative;
 }
 
-a:hover {
-    background-color: #bd1dc6;
+.tickets a:hover {
+  background-color: #bd1dc6;
 }
 
+
+/*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.desc {
+  max-width: 30em;
+  text-align: left !important;
+  font-size: .7em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  color: #ebebeb;
+  /* background-color: #bf9412; */
+  line-height: 1.2em;
+  font-family: 'VTFMisterPixelRegular';
+}
+
+.desc a {
+  color: #fdcb33;
+  font-size: 1.2em;
+  line-height: 2em;
+  font-family: 'VTFMisterPixelRegular';
+}
+
+.desc2 {
+  max-width: 30em;
+  font-size: 1.5em;
+  color: #ebebeb;
+  line-height: 1.3em;
+  font-family: 'VTFMisterPixelRegular';
+  text-align: left !important;
+}
+
+.lib {
+  width: 400px;
+  padding-bottom: 5em;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.3em;
+  /* font-weight: 400; */
+  font-family: 'StepsMonoRegular';
+  margin-top: 2.2em;
+  margin-bottom: .8em;
+}
+
+.right {
+  padding-top: 3em;
+  position: absolute;
+  right: 1em;
+  width: 500px;
+  font-weight: 700;
+  /*font-family: 'StepsMonoRegular';*/
+}
+
+.right li {
+  padding-top: 1em !important;
+  font-size: 1.1em !important;
+}
+
+.page-head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row {
+  margin-left: -4em;
+  margin-right: -10em;
+}
+
+.page-head ul {
+  padding: 0;
+  margin: 0;
+}
+
+.page-head ul li a {
+  text-decoration: underline;
+  color: #0028d1;
+}
+
+.page-head ul li a:hover::before {
+  content: '↬ ';
+  color: #ebebeb;
+  text-decoration: none;
+  left: -13px;
+  /* equal to padding-left */
+}
+
+.page-head ul li {
+  list-style: none;
+  padding: 0 5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.col-md-10 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1em;
+}
+
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 33.33333333%;
+}
+
+
+/*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 .arrow {
   width: 80%;
@@ -58,9 +185,8 @@ a:hover {
   font-family: 'StepsMonoRegular';
 }
 
-
-.mark{
-    color: black;
+.mark {
+  color: black;
 }
 
 #name {
@@ -90,11 +216,10 @@ a:hover {
     margin: 100px 0 0 0;
 }
 
-
 .centered {
   display: block;
   margin: 0 auto;
-  padding-left: 4.5em;
+  text-align: center;
 }
 
 .gif {
@@ -209,13 +334,10 @@ ul {
     left: -13px;   /* equal to padding-left */
 }
 
-
 .speakers li a:hover {
-    background-color: #0028d1;
-
-    /*text-decoration: none;*/
+  background-color: #0028d1;
+  /*text-decoration: none;*/
 }
-
 
 .speakers {
     position: relative;
@@ -231,7 +353,6 @@ ul {
     padding-left: 2em;
     /*justify-content: space-around;*/
 }
-
 
 #left-col {
     background: none;
@@ -253,10 +374,11 @@ ul {
     right: 0;
     width: 100px;
     height: 100%;
+
 }
 
 .stars {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -305,6 +427,5 @@ ul {
     .speakers {
         margin-top: -9em;
     }
-
 
 }
