@@ -46,13 +46,54 @@ body {
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+.desc {
+  max-width: 30em;
+  text-align: left !important;
+  font-size: .7em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  color: #ebebeb;
+  /* background-color: #bf9412; */
+  line-height: 1.2em;
+  font-family: 'VTFMisterPixelRegular';
+}
+
+.desc a {
+  color: #fdcb33;
+  font-size: 1.2em;
+  line-height: 2em;
+  font-family: 'VTFMisterPixelRegular';
+}
+
+.desc2 {
+  max-width: 30em;
+  font-size: 1.5em;
+  color: #ebebeb;
+  line-height: 1.3em;
+  font-family: 'VTFMisterPixelRegular';
+  text-align: left !important;
+}
+
+.lib {
+  width: 400px;
+  padding-bottom: 5em;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.3em;
+  /* font-weight: 400; */
+  font-family: 'StepsMonoRegular';
+  margin-top: 2.2em;
+  margin-bottom: .8em;
+}
 
 .right {
   padding-top: 3em;
-      position: absolute;
-    right: 1em;
-      width: 500px;
-      font-weight: 700;
+  position: absolute;
+  right: 1em;
+  width: 500px;
+  font-weight: 700;
   /*font-family: 'StepsMonoRegular';*/
 }
 
@@ -60,7 +101,6 @@ body {
   padding-top: 1em !important;
   font-size: 1.1em !important;
 }
-
 
 .page-head {
   padding-top: 20px;
@@ -89,7 +129,6 @@ body {
   left: -13px;
   /* equal to padding-left */
 }
-
 
 .page-head ul li {
   list-style: none;
@@ -128,7 +167,6 @@ body {
 
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
-
 
 .arrow {
   height: 1720px;
@@ -173,13 +211,13 @@ body {
 .main-items p {
   position: relative;
   z-index: 20;
-    max-width: 32em !important;
+  max-width: 32em !important;
 }
 
 .centered {
   display: block;
   margin: 0 auto;
-  padding-left: 4.5em;
+  text-align: center;
 }
 
 .gif {
@@ -315,7 +353,7 @@ ul {
   top: 0;
   bottom: 0;
   width: 7em;
-  margin-top: 4.1em;
+  margin-top: 3.9em;
   height: 100;
   /*z-index: 1000;*/
 }
@@ -353,7 +391,6 @@ ul {
     padding-bottom: 14em;
   }
   .centered {
-    ;
     padding-left: 0px;
   }
   .stars {
