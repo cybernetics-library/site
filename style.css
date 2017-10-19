@@ -40,6 +40,81 @@ a:hover {
     background-color: #bd1dc6;
 }
 
+/*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.right {
+  padding-top: 5em;
+  position: absolute;
+  left: 43%;
+  font-weight: 700;
+  /*font-family: 'StepsMonoRegular';*/
+}
+
+.right li {
+  padding-top: 1em;
+
+}
+
+
+
+.page-head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row {
+    margin-left: -4em;
+    margin-right: -10em;
+}
+
+.page-head ul {
+    padding: 0;
+    margin: 0;
+}
+
+.page-head ul li a {
+  text-decoration: underline;
+    color: black !important;
+}
+
+.page-head ul li {
+    list-style: none;
+    padding: 0 5px;
+    margin: 0;
+    display: inline-block;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.col-md-10 {
+position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 1em;
+}
+
+.col-md-4 {
+position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+float: left;
+width: 33.33333333%;
+}
+
+
+
+/*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*//*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
 
 .arrow {
   height: 1720px;
@@ -49,11 +124,16 @@ a:hover {
   z-index: 10;
 }
 
+
+
 #quote {
   color: #ebebeb;
   font-size: 1.5em;
   line-height: 1.1em;
     font-family: 'StepsMonoRegular';
+        margin-top: 3em;
+            padding-right: 11em !important;
+
 }
 
 
@@ -71,18 +151,20 @@ a:hover {
   padding-right: 15em;
   /*background-color: rgba(#bf9412, 0.77) !important;*/
     background-color: #bf9412;
-  font-size: 1.6em;
+font-size: 1.4em;
   line-height: 1.3em;
-  padding-top: 3em;
+    padding-top: .5em;
   color: black;
       padding-bottom: 3em;
-          margin-left: 4.2em;
+              margin-left: 5em;
               padding-left: 4em;
 }
 
 .main-items p {
     position: relative;
     z-index: 20;
+    padding-right: 18em !important;
+
 }
 
 
@@ -113,7 +195,7 @@ marquee {
   font-size: 3em;
   padding: 0;
   color: #ebebeb;
-  display: block; 
+  display: block;
   /*background-color: #ec5332;;*/
 }
 
@@ -211,6 +293,7 @@ ul {
   text-align: center;
   margin-top: 15em;
   z-index: 1000;
+    /*font-family: 'VTFMisterPixelRegular';*/
 }
 
 .speakers ul {
