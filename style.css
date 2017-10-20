@@ -61,10 +61,26 @@ body {
 }
 
 .desc a {
-  color: #fdcb33;
+  color: #0028d1;
   font-size: 1.2em;
   line-height: 2em;
   font-family: 'VTFMisterPixelRegular';
+}
+
+.desc a:hover::before {
+  content: '↬ ';
+  color: #ebebeb;
+  text-decoration: none;
+  left: -13px;
+  /* equal to padding-left */
+}
+
+.desc a:hover::after {
+  content: ' ↫';
+  color: #ebebeb;
+  text-decoration: none;
+  left: -13px;
+  /* equal to padding-left */
 }
 
 .desc2 {
@@ -283,6 +299,7 @@ h4 {
   /* font-weight: 400; */
   font-family: 'StepsMonoRegular';
   margin-top: 2.2em;
+      padding-top: 1em;
 }
 
 ul {
@@ -302,6 +319,7 @@ ul {
   margin-left: 7em;
   padding-left: -7em !important;
   background-color: #bf9412;
+      padding-bottom: 5em;
 }
 
 .speakers li {
@@ -336,10 +354,6 @@ ul {
   /* equal to padding-left */
 }
 
-.speakers li a:hover {
-  background-color: #0028d1;
-  /*text-decoration: none;*/
-}
 
 .speakers ul {
   display: block;
