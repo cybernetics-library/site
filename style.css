@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: 'Steps-Mono';
+  src: url('assets/Steps-Mono.otf') format('otf');
+}
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -69,6 +79,7 @@ body {
   color: #0028d1;
   font-size: 1.2em;
   line-height: 2em;
+  font-weight: 700;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -106,7 +117,7 @@ h5 {
   text-align: center;
   font-size: 1.3em;
   /* font-weight: 400; */
-  font-family: 'StepsMonoRegular';
+  font-family: 'Steps-Mono';
   margin-top: 2.2em;
   margin-bottom: .8em;
   text-decoration-skip: ink;
@@ -114,24 +125,21 @@ h5 {
 }
 
 .right {
-  padding-top: 5em;
+    padding-top: 3.7em;
       position: absolute;
       right: 1em;
       width: 500px;
-      /* font-weight: 700; */
-      font-size: 1em;
-  /*font-family: 'StepsMonoRegular';*/
 }
 
 .right li {
   padding-top: 1em !important;
-  font-size: 1.1em !important;
+
 }
 
 .page-head {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: 'StepsMonoRegular';
+  font-family: 'Steps-Mono';
 }
 
 .row {
@@ -207,7 +215,7 @@ top: 77em;
   color: #ebebeb;
   font-size: 1.5em;
   line-height: 1.1em;
-  font-family: 'StepsMonoRegular';
+  font-family: 'Steps-Mono';
   margin-top: 3em;
   padding-right: 5em !important;
 }
@@ -237,6 +245,7 @@ top: 77em;
 .main-items p {
   position: relative;
   z-index: 2000;
+  margin-top: 4em;
   max-width: 32em !important;
   line-height: 1.4em;
 }
@@ -262,7 +271,7 @@ top: 77em;
 
 
 marquee {
-  font-family: 'StepsMonoRegular';
+  font-family: 'Steps-Mono';
   font-weight: normal;
   font-style: normal;
   font-size: 3em;
@@ -273,7 +282,7 @@ marquee {
 }
 
 .top {
-border-top: 5px solid #ebebeb !important;
+/*border-top: 5px solid #ebebeb !important;*/
     padding-top: .2em;
 }
 
@@ -290,7 +299,7 @@ border-top: 5px solid #ebebeb !important;
 }
 
 h1 {
-  font-family: 'StepsMonoRegular';
+  font-family: 'Steps-Mono';
   font-size: 7em;
   text-align: center;
   padding: 0.5em;
@@ -313,7 +322,7 @@ h4 {
   font-size: 4em;
   padding-left: 1em;
   /* font-weight: 400; */
-  font-family: 'StepsMonoRegular';
+  font-family: 'Steps-Mono';
   margin-top: -0.8em;
   padding-top: 1em;
   /*text-decoration: underline;
@@ -358,9 +367,9 @@ ul {
 
 .work-a {
     color: inherit;
-    text-decoration: none !important;
     position: relative;
     z-index: 2000;
+    text-decoration-skip: ink;
 }
 
 .speakers li a:hover::before {
@@ -423,10 +432,6 @@ font-size: 1.2em;
 }
 
 
-.col-md-4 {
-    padding-right: 10em;
-}
-
 }
 
 
@@ -440,9 +445,14 @@ font-size: 1.2em;
     display: none;
   }
 
+
   .col-md-4 {
       padding-right: 10em;
   }
+
+  .right{
+    padding-right: 9em;
+}
 
   #quote {
   font-size: 1.2em;
@@ -453,6 +463,15 @@ font-size: 1.2em;
     margin-left: 0px;
     padding-right: 3em;
   }
+
+  .main-items p {
+      max-width: 26em !important;
+          font-size: .7em;
+  }
+
+
+
+
   .arrow {
     height: 400px;
     left: 2em;
@@ -474,17 +493,45 @@ font-size: 1.2em;
     padding-left: 0px;
   }
   .stars {
-    display: block;
-    width: 410px;
-    padding-top: 2em;
-    padding-bottom: 0em;
+      display: block;
+      width: 418px;
+      padding-top: 2em;
+      padding-bottom: 0em;
+      margin-bottom: -14em;
   }
   .speakers {
     margin-left: 0;
   }
+
+
+  .lib {
+    width: 230px;
+    padding-bottom: 5em;
+}
 }
 
 @media only screen and (max-width: 800px) {
+
+  h1 {
+      font-family: 'Steps-Mono';
+      font-size: 6em;
+
+    }
+
+    .desc, .desc2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+  #quote {
+      font-size: 1.2em;
+      padding-right: 10em !important;
+  }
+  .row {
+    margin-left: -2.1em;
+    font-size: 0.3em;
+    margin-right: -10em;
+}
 
   html {
     font-size: .5em;
@@ -499,9 +546,14 @@ font-size: 1.2em;
     display: none;
   }
   .main-items {
-    margin-left: 0px;
-    padding-right: 3em;
+      margin-left: -28px;
+      padding-right: 0em;
   }
+
+  .main-items p {
+        margin-top: 4em;
+  }
+
   .arrow {
     height: 400px;
     left: 2em;
@@ -509,7 +561,8 @@ font-size: 1.2em;
     display: none;
   }
   h4 {
-    padding-left: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
   .speakers ul {
     padding-left: 0px;
@@ -524,7 +577,7 @@ font-size: 1.2em;
   }
   .stars {
     display: block;
-    width: 410px;
+width: 300px;
     padding-top: 2em;
     padding-bottom: 0em;
     margin-bottom: -16em !important;
@@ -532,5 +585,104 @@ font-size: 1.2em;
   .speakers {
     margin-left: 0;
   }
+
+  .lib {
+    width: 230px;
+    padding-bottom: 5em;
+}
+
+
+}
+
+
+@media only screen and (width: 768px) {
+
+  h1 {
+      font-family: 'Steps-Mono';
+      font-size: 6em;
+
+    }
+
+    .desc, .desc2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#quote {
+    font-size: 1.2em;
+    padding-right: 7em !important;
+    margin-left: 9.3em;
+}
+.row {
+    width: 93%;
+    margin-left: 11.9em;
+    font-size: 0.3em;
+    /* margin-right: -10em; */
+}
+
+  html {
+    font-size: .5em;
+  }
+
+  .col-md-4 {
+      padding-right: 10em;
+  }
+
+
+  #left {
+    display: none;
+  }
+  .main-items {
+      margin-left: -28px;
+      padding-right: 0em;
+  }
+
+  .main-items p {
+      margin-top: 4em;
+      margin-left: 14em;
+  }
+
+  .arrow {
+    height: 400px;
+    left: 2em;
+    top: 90em;
+    display: none;
+  }
+  h4 {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .speakers ul {
+    padding-left: 0px;
+    /*justify-content: space-around;*/
+  }
+  .gif {
+    width: 150px;
+    padding-bottom: 14em;
+  }
+  .centered {
+    padding-left: 0px;
+  }
+  .stars {
+    display: block;
+width: 300px;
+    margin-left: 30em;
+    padding-top: 2em;
+    padding-bottom: 0em;
+    margin-bottom: -16em !important;
+  }
+  .speakers {
+    margin-left: 9em;
+  }
+
+  .lib {
+    width: 230px;
+    padding-bottom: 5em;
+}
+
+.gif {
+      margin-left: 38em;
+}
+
 
 }
