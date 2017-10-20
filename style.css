@@ -206,7 +206,7 @@ h5 {
 .arrow {
   height: 1723px;
   left: 9em;
-top: 77em;
+top: 81em;
   position: absolute;
   z-index: 1450;
 }
@@ -284,24 +284,31 @@ marquee {
 .top {
 /*border-top: 5px solid #ebebeb !important;*/
     padding-top: .2em;
+    border-bottom: 5px solid #ebebeb;
 }
 
 .tickets a {
   margin: 0 1em;
   display: inline-block;
   font-size: 0.6em;
-  /* color: #a600ff; */
-  /*margin-bottom: 40em;*/
 }
 
 .tickets {
+  border-top: 5px solid #ebebeb;
   border-bottom: 5px solid #ebebeb;
+}
+
+
+.tickets-bottom {
+  margin-top: 0em;
+  border-top: 5px solid #ebebeb;
 }
 
 h1 {
   font-family: 'Steps-Mono';
   font-size: 7em;
   text-align: center;
+      margin-left: .3em;
   padding: 0.5em;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -309,8 +316,6 @@ h1 {
   font-weight: 400;
   color: #ebebeb;
   background: none;
-  border-top: 5px solid #ebebeb;
-  border-bottom: 5px solid #ebebeb;
   margin-top: 0;
   margin-bottom: 0;
   /*yellow*/
@@ -431,6 +436,9 @@ font-size: 1.2em;
   padding-right: 6em !important;
 }
 
+.arrow {
+  top: 91em;
+}
 
 }
 
@@ -470,14 +478,10 @@ font-size: 1.2em;
   }
 
 
-
-
   .arrow {
-    height: 400px;
-    left: 2em;
-    top: 90em;
     display: none;
   }
+
   h4 {
     padding-left: 0px;
   }
