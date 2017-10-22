@@ -4,7 +4,14 @@
   src: url('assets/Steps-Mono.otf') format('otf');
 }
 
-
+@font-face {
+  font-family: 'Steps-Mono';
+  src: url('assets/fonts/steps-mono.otf') format('otf');
+  src: url('assets/fonts/steps-mono.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/steps-mono-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/steps-mono-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('assets/fonts/steps-mono.ttf')  format('truetype') /* Safari, Android, iOS */
+}
 
 
 
@@ -61,7 +68,89 @@ body {
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+.main-items {
+  padding: 1em;
+  /*padding-right: 15em;*/
+  /*background-color: rgba(#bf9412, 0.77) !important;*/
+  background-color: #bf9412;
+  font-size: 1.4em;
+  color: black;
+  padding-bottom: 4em;
+  margin-left: 5em;
+  /*padding-left: 4em;*/
+}
 
+.main-items p {
+  /*position: relative;*/
+  z-index: 2000;
+  /*max-width: 32em !important;*/
+  line-height: 1.4em;
+}
+
+.three-column-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.8em;
+    margin-right: 4.8em;
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+.three-column-info .col {
+  flex-grow: 1;
+}
+
+.three-column-info .tci-left {
+  text-align: left;
+}
+.three-column-info .tci-middle {
+  text-align: center;
+}
+.three-column-info .tci-right {
+  text-align: right;
+}
+
+
+.two-column-main {
+  display: flex;
+  flex-direction: row;
+    margin: 4em;
+}
+
+.two-column-main .col {
+  flex-grow: 1;
+}
+
+.two-column-main .two-left {
+  text-align: left;
+    max-width: 32em;
+}
+
+.two-column-main .two-right {
+  text-align: right;
+  padding-top: 1em;
+}
+
+.two-column-main .two-right a{
+color: #0028d1;
+}
+
+#quote {
+  color: #ebebeb;
+  font-size: 1.5em;
+  line-height: 1.1em;
+  font-family: 'Steps-Mono';
+  /*padding-right: 5em !important;*/
+}
+
+.mark {
+  color: black;
+}
+
+#name {
+  color: black;
+  text-align: right;
+}
 
 .desc {
   max-width: 30em;
@@ -124,78 +213,6 @@ h5 {
   text-decoration: underline;
 }
 
-.right {
-    padding-top: 3.7em;
-      position: absolute;
-      right: 1em;
-      width: 500px;
-}
-
-.right li {
-  padding-top: 1em !important;
-
-}
-
-.page-head {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: 'Steps-Mono';
-}
-
-.row {
-    margin-left: -1em;
-  margin-right: -10em;
-}
-
-.page-head ul {
-  padding: 0;
-  margin: 0;
-}
-
-.page-head ul li a {
-  text-decoration: underline;
-  color: #0028d1;
-}
-
-.page-head ul li a:hover::before {
-  content: '↬';
-  color: #ebebeb;
-  text-decoration: none;
-  left: -13px;
-  /* equal to padding-left */
-}
-
-.page-head ul li {
-  list-style: none;
-  padding: 0 5px;
-  margin: 0;
-  display: inline-block;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.col-md-10 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 1em;
-}
-
-.col-md-4 {
-  position: relative;
-  min-height: 1px;
-  /* padding-left: 15px; */
-  padding-right: 15px;
-  float: left;
-  width: 33.33333333%;
-}
 
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
@@ -211,44 +228,7 @@ top: 81em;
   z-index: 1450;
 }
 
-#quote {
-  color: #ebebeb;
-  font-size: 1.5em;
-  line-height: 1.1em;
-  font-family: 'Steps-Mono';
-  margin-top: 3em;
-  padding-right: 5em !important;
-}
 
-.mark {
-  color: black;
-}
-
-#name {
-  color: black;
-  text-align: right;
-}
-
-.main-items {
-  padding: 1em;
-  padding-right: 15em;
-  /*background-color: rgba(#bf9412, 0.77) !important;*/
-  background-color: #bf9412;
-  font-size: 1.4em;
-  padding-top: .5em;
-  color: black;
-  padding-bottom: 4em;
-  margin-left: 5em;
-  padding-left: 4em;
-}
-
-.main-items p {
-  position: relative;
-  z-index: 2000;
-  margin-top: 4em;
-  max-width: 32em !important;
-  line-height: 1.4em;
-}
 
 .centered {
   display: block;
@@ -334,14 +314,14 @@ h4 {
   text-decoration-color: #0028d1;*/
 }
 
-ul {
-  list-style-type: none;
-  /*margin: 0;*/
-  /*padding: 0;*/
-  display: block;
-  margin: 0 auto;
-  position: relative;
-    z-index: 2000;
+  ul {
+      list-style-type: none;
+      /* margin: 0; */
+      padding: 0;
+      /* display: block; */
+      /* margin: 0 auto; */
+      /* position: relative; */
+      z-index: 2000;
 }
 
 
@@ -431,10 +411,6 @@ ul {
 
 @media only screen and (max-width: 1312px) {
 
-#quote {
-font-size: 1.2em;
-  padding-right: 6em !important;
-}
 
 .arrow {
   top: 91em;
@@ -452,20 +428,15 @@ font-size: 1.2em;
   #left {
     display: none;
   }
+h1 {
+    margin-left: 0em;
+}
 
-
-  .col-md-4 {
-      padding-right: 10em;
-  }
 
   .right{
     padding-right: 9em;
 }
 
-  #quote {
-  font-size: 1.2em;
-    padding-right: 6em !important;
-  }
 
   .main-items {
     margin-left: 0px;
@@ -529,21 +500,20 @@ font-size: 1.2em;
 
   #quote {
       font-size: 1.2em;
-      padding-right: 10em !important;
   }
-  .row {
-    margin-left: -2.1em;
+
+  .three-column-info {
     font-size: 0.3em;
-    margin-right: -10em;
 }
+
+  .two-column-main .two-right {
+      font-size: .3em;
+  }
 
   html {
     font-size: .5em;
   }
 
-  .col-md-4 {
-      padding-right: 10em;
-  }
 
 
   #left {
@@ -554,9 +524,6 @@ font-size: 1.2em;
       padding-right: 0em;
   }
 
-  .main-items p {
-        margin-top: 4em;
-  }
 
   .arrow {
     height: 400px;
@@ -612,11 +579,7 @@ width: 300px;
     padding-right: 10px !important;
 }
 
-#quote {
-    font-size: 1.2em;
-    padding-right: 7em !important;
-    margin-left: 9.3em;
-}
+
 .row {
     width: 93%;
     margin-left: 11.9em;
@@ -642,8 +605,8 @@ width: 300px;
   }
 
   .main-items p {
-      margin-top: 4em;
-      margin-left: 14em;
+      max-width: 26em !important;
+      font-size: 1em;
   }
 
   .arrow {
@@ -669,23 +632,15 @@ width: 300px;
   }
   .stars {
     display: block;
-width: 300px;
-    margin-left: 30em;
+    width: 300px;
     padding-top: 2em;
     padding-bottom: 0em;
     margin-bottom: -16em !important;
-  }
-  .speakers {
-    margin-left: 9em;
   }
 
   .lib {
     width: 230px;
     padding-bottom: 5em;
-}
-
-.gif {
-      margin-left: 38em;
 }
 
 
