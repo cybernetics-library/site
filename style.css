@@ -154,6 +154,7 @@ color: #0028d1;
   font-size: 1.5em;
   line-height: 1.1em;
   font-family: 'Steps-Mono';
+  margin-bottom: 2.5em;
   /*padding-right: 5em !important;*/
 }
 
@@ -161,9 +162,15 @@ color: #0028d1;
   color: black;
 }
 
+.mark.init {
+    margin-left: -0.5em;
+}
+
 #name {
+  margin-top: 0.5em;
   color: black;
-  text-align: right;
+  float: right;
+  white-space: nowrap;
 }
 
 .desc {
