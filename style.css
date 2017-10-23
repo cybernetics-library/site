@@ -32,7 +32,6 @@ html {
   /*background: #0028d1;*/
 background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
   color: black;
-  overflow-x: hidden;
 }
 
 a {
@@ -197,6 +196,8 @@ color: #0028d1;
   line-height: 1.4em;
   font-family: 'Roboto Mono', monospace;
   text-align: left !important;
+  position: relative;
+z-index: 3000;
 }
 
 .lib {
@@ -222,7 +223,7 @@ h5 {
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
-.arrow {
+.arrow, .up-arrow, .around-arrow, .stacked-arrow {
   height: 1723px;
   left: 9em;
 top: 84em;
@@ -230,6 +231,23 @@ top: 84em;
   z-index: 1450;
 }
 
+.up-arrow {
+  height: 731px;
+  left: 10em;
+  top: 248em;
+}
+
+.around-arrow {
+  height: 936px;
+  top: 407em;
+  left: 39em;
+}
+
+.stacked-arrow {
+  height: 415px;
+  top: 507em;
+  left: 65em;
+}
 
 
 .centered {
@@ -240,7 +258,7 @@ top: 84em;
 
 .gif {
   width: 370px;
-  margin-top: 16em;
+      margin-top: 30em;
   padding-bottom: 14em;
 }
 
@@ -261,6 +279,7 @@ marquee {
   color: #ebebeb;
   display: block;
   /*background-color: #ec5332;;*/
+
 }
 
 .top {
@@ -312,8 +331,8 @@ h4 {
   font-family: 'Steps-Mono';
   margin-top: -0.8em;
   padding-top: 1em;
-  /*text-decoration: underline;
-  text-decoration-color: #0028d1;*/
+  position: relative;
+      z-index: 3000;
 }
 
   ul {
