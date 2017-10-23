@@ -26,6 +26,8 @@ html, body {
   font-family: 'Roboto Mono', monospace;
   font-weight: normal;
   font-style: normal;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html {
