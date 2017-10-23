@@ -62,6 +62,10 @@ body {
 }
 
 
+.image, .caption { font-size: 1em;
+  display: inline-block;
+                  text-align: center; }
+
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 
@@ -221,7 +225,7 @@ h5 {
 .arrow {
   height: 1723px;
   left: 9em;
-top: 87em;
+  top: 87em;
   position: absolute;
   z-index: 1450;
 }
