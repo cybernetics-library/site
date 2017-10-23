@@ -63,7 +63,12 @@ body {
 
 .image, .caption { font-size: 1em;
   display: inline-block;
-                  text-align: center; }
+  text-align: center;
+}
+
+caption a{
+  color: black;
+}
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
