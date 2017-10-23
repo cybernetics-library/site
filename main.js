@@ -65,4 +65,33 @@ $(document).ready(function() {
     return false;
   });
 
+
+//image hover
+
+  var mouse = {x:0,y:0},
+      offset = {x:10, y:10};
+
+  $('em').on('mouseenter', function() {
+      var src = $(this).data('image');
+      $('.popover').html('<img src="'+src+'">').show();
+      offset.x = -$('.popover').width()/2;
+      clearTimeout(this.timer);
+  }).on('mouseleave', function() {
+      this.timer = setTimeout(function() {
+          $('.popover').hide();
+      }, 10);
+  });
+
+  document.addEventListener('mousemove', function(e){
+      mouse.x = e.pageX;
+      mouse.y = e.pageY;
+      $('.popover').css({
+          left: (mouse.x + offset.x) + 'px',
+          top: (mouse.y + offset.y) + 'px'
+      });
+  });
+
+
+
+
 }); // ready() END

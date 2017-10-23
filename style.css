@@ -12,7 +12,13 @@
        url('assets/fonts/steps-mono-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('assets/fonts/steps-mono.ttf')  format('truetype') /* Safari, Android, iOS */
 }
-
+/*
+.popover img {
+    box-shadow: 0px 0px 10px purple;
+    width: 500px;
+    position: absolute;
+    z-index: 4000;
+}*/
 
 
 * {
@@ -210,6 +216,11 @@ z-index: 3000;
   padding-bottom: 5em;
 }
 
+.map {
+  width: 60vw;
+    padding-top: 5em;
+}
+
 h5 {
   text-align: center;
   font-size: 1.3em;
@@ -267,11 +278,6 @@ top: 84em;
   padding-bottom: 14em;
 }
 
-.map {
-  width: 70vw;
-  margin-top: 0;
-  padding-bottom: 14em;
-}
 
 
 
@@ -314,16 +320,16 @@ h1 {
   font-family: 'Steps-Mono';
   font-size: 7em;
   text-align: center;
-      margin-left: .3em;
+  margin-left: .3em;
   padding: 0.5em;
   padding-top: .5em;
   padding-bottom: .5em;
-  width: 100%;
   font-weight: 400;
   color: #ebebeb;
   background: none;
   margin-top: 0;
   margin-bottom: 0;
+  max-width: 100%;
   /*yellow*/
   /*background-color: #aa9e00;*/
 }
@@ -448,12 +454,29 @@ h4 {
   top: 91em;
 }
 
+
+.around-arrow {
+    height: 736px;
+    top: 379em;
+    left: 1em;
+}
+
+.stacked-arrow {
+display: none;
+}
+
 }
 
 
 
 
 @media only screen and (max-width: 1025px) {
+
+  html, body {
+overflow-x: hidden;
+  }
+
+
   html {
     font-size: 1em;
   }
@@ -482,7 +505,7 @@ h1 {
 
 
   .arrow {
-    display: none;
+    /*display: none;*/
   }
 
   h4 {
@@ -500,7 +523,7 @@ h1 {
     padding-left: 0px;
   }
   .stars {
-      display: block;
+      display: none;
       width: 418px;
       padding-top: 2em;
       padding-bottom: 0em;
@@ -558,11 +581,15 @@ h1 {
 
 
   .arrow {
-    height: 400px;
+
     left: 2em;
     top: 90em;
-    display: none;
+
   }
+
+  .up-arrow {
+display: none;
+}
   h4 {
       padding-left: 10px;
       padding-right: 10px;
@@ -579,7 +606,7 @@ h1 {
     padding-left: 0px;
   }
   .stars {
-    display: block;
+  display: none;
 width: 300px;
     padding-top: 2em;
     padding-bottom: 0em;
@@ -641,12 +668,7 @@ width: 300px;
       font-size: 1em;
   }
 
-  .arrow {
-    height: 400px;
-    left: 2em;
-    top: 90em;
-    display: none;
-  }
+
   h4 {
       padding-left: 10px;
       padding-right: 10px;
@@ -663,7 +685,7 @@ width: 300px;
     padding-left: 0px;
   }
   .stars {
-    display: block;
+    display: none;
     width: 300px;
     padding-top: 2em;
     padding-bottom: 0em;
@@ -676,4 +698,14 @@ width: 300px;
 }
 
 
+}
+
+
+
+@media only screen and (max-width: 400px) {
+.around-arrow {
+    height: 736px;
+    top: 383em;
+    left: -12em;
+}
 }
