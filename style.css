@@ -32,6 +32,8 @@ html, body {
   font-family: 'Roboto Mono', monospace;
   font-weight: normal;
   font-style: normal;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html {
@@ -341,7 +343,8 @@ h4 {
   padding-left: 1em;
   /* font-weight: 400; */
   font-family: 'Steps-Mono';
-  margin-top: -0.8em;
+  margin-top: -0.4em;
+  margin-bottom: 0.6em;
   padding-top: 1em;
   position: relative;
       z-index: 3000;
