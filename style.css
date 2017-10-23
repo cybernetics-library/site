@@ -29,9 +29,8 @@ html, body {
 }
 
 html {
-  background: #0028d1;
-  /*#0028d1;*/
-  /*color: #ec5332;*/
+  /*background: #0028d1;*/
+background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
   color: black;
   overflow-x: hidden;
 }
@@ -70,9 +69,8 @@ body {
 
 .main-items {
   padding: 1em;
-  /*padding-right: 15em;*/
-  /*background-color: rgba(#bf9412, 0.77) !important;*/
-  background-color: #bf9412;
+background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);
+  /*background-color: #bf9412;*/
   font-size: 1.4em;
   color: black;
   padding-bottom: 4em;
@@ -330,8 +328,9 @@ h4 {
   margin-top: 15em;
   margin-left: 7em;
   padding-left: -7em !important;
-  background-color: #bf9412;
+  /*background-color: #bf9412;*/
       padding-bottom: 5em;
+      background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);
 }
 
 .speakers li {
