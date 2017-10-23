@@ -44,12 +44,12 @@ a:visited {
 }
 
 ::selection {
-  background: #ebebeb;
+  background: #d08cff;
   color: black;
 }
 
 ::-moz-selection {
-  background: #ebebeb;
+  background: #d08cff;
   color: black;
 }
 
@@ -225,7 +225,7 @@ h5 {
 .arrow {
   height: 1723px;
   left: 9em;
-  top: 87em;
+top: 84em;
   position: absolute;
   z-index: 1450;
 }
