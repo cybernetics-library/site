@@ -82,8 +82,8 @@ background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);
 }
 
 .main-items p {
-  /*position: relative;*/
-  z-index: 2000;
+  position: relative;
+  z-index: 3000;
   /*max-width: 32em !important;*/
   line-height: 1.4em;
 }
