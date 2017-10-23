@@ -234,6 +234,9 @@ h5 {
   text-decoration: underline;
 }
 
+.lib-org {
+  font-size: 3em !important;
+}
 
 
 /*XXxxxxxXXXXXXXXXXXXXXXXXXXXXXXXX*/
@@ -264,7 +267,7 @@ top: 84em;
 
 .stacked-arrow {
   height: 496px;
-  top: 495em;
+top: 532em;
   left: 24em;
 }
 
