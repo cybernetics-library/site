@@ -253,16 +253,17 @@ top: 84em;
   top: 248em;
 }
 
-.around-arrow {
-  height: 936px;
-  top: 407em;
-  left: 39em;
-}
+  .around-arrow {
+      height: 1236px;
+      top: 394em;
+      left: 35em;
+  }
+
 
 .stacked-arrow {
-  height: 415px;
-      top: 502em;
-      left: 56em;
+  height: 496px;
+  top: 495em;
+  left: 24em;
 }
 
 
@@ -455,12 +456,6 @@ h4 {
 }
 
 
-.around-arrow {
-    height: 736px;
-    top: 379em;
-    left: 1em;
-}
-
 .stacked-arrow {
 display: none;
 }
@@ -586,6 +581,12 @@ h1 {
     top: 90em;
 
   }
+
+  .around-arrow {
+    height: 836px;
+    top: 394em;
+    left: 19em;
+}
 
   .up-arrow {
 display: none;
