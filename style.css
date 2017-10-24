@@ -43,6 +43,14 @@ background: linear-gradient(99deg, #184cde 0%, #b638d6 100%);
   color: black;
 }
 
+.tix {
+  text-align: center !important;
+  max-width: 50vw;
+  font-size: 1.5em;
+      padding-top: 3em;
+}
+
+
 a {
   color: #ebebeb;
 }
@@ -188,7 +196,7 @@ caption a{
 }
 
 .desc a {
-  color: #0028d1;
+  color: #7213ff;
   font-size: 1.2em;
   line-height: 2em;
   font-weight: 700;
