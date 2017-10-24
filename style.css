@@ -143,12 +143,12 @@ caption a{
 }
 
 .two-column-main .two-right {
-  text-align: right;
-  padding-top: 1em;
+    text-align: right;
+    padding-top: .7em;
 }
 
-.two-column-main .two-right a{
-color: #0028d1;
+.two-column-main .two-right a {
+    color: #ebebeb;
 }
 
 #quote {
@@ -331,14 +331,22 @@ marquee {
   border-top: 5px solid #ebebeb;
 }
 
+.year {
+    color: #ebebeb;
+    margin-left: 1.3em;
+    font-size: 3em;
+    margin-bottom: 1.5em;
+    font-family: 'Steps-Mono';
+}
+
 h1 {
   font-family: 'Steps-Mono';
   font-size: 7em;
   text-align: center;
-  margin-left: .3em;
+    margin-left: .9em;
   padding: 0.5em;
   padding-top: .5em;
-  padding-bottom: .5em;
+padding-bottom: .4em;
   font-weight: 400;
   color: #ebebeb;
   background: none;
@@ -496,7 +504,11 @@ overflow-x: hidden;
     display: none;
   }
 h1 {
-    margin-left: 0em;
+    margin-left: auto;
+}
+
+.year{
+    margin-left: auto;
 }
 
 
