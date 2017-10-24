@@ -233,6 +233,8 @@ z-index: 3000;
 .lib {
   width: 400px;
   padding-bottom: 5em;
+  position: relative;
+  z-index: 4000;
 }
 
 .map {
@@ -276,9 +278,9 @@ top: 84em;
 }
 
   .around-arrow {
-      height: 1236px;
-      top: 394em;
-      left: 35em;
+    height: 1191px;
+    top: 398em;
+    left: 35em;
   }
 
 
