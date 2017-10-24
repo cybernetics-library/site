@@ -38,7 +38,8 @@ html, body {
 
 html {
   /*background: #0028d1;*/
-background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
+/*background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);*/
+background: linear-gradient(99deg, #184cde 0%, #b638d6 100%);
   color: black;
 }
 
@@ -85,7 +86,8 @@ caption a{
 
 .main-items {
   padding: 1em;
-background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);
+  background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
+/*background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);*/
   /*background-color: #bf9412;*/
   font-size: 1.4em;
   color: black;
@@ -378,7 +380,8 @@ h4 {
   padding-left: -7em !important;
   /*background-color: #bf9412;*/
       padding-bottom: 5em;
-      background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);
+background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
+      /*background: linear-gradient(19deg, rgb(222, 255, 181) 0%, #b49412 100%);*/
 }
 
 .speakers li {
