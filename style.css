@@ -278,9 +278,9 @@ top: 84em;
 }
 
   .around-arrow {
-    height: 1191px;
-    top: 398em;
-    left: 35em;
+    height: 931px;
+    top: 417em;
+    left: 49em;
   }
 
 
@@ -538,8 +538,10 @@ h1 {
   }
 
 
-  .arrow {
-    /*display: none;*/
+  .around-arrow {
+    height: 931px;
+    top: 415em;
+    left: 14em;
   }
 
   h4 {
@@ -623,7 +625,8 @@ h1 {
   }
 
   .around-arrow {
-    height: 836px;
+
+    height: 736px;
 top: 397em;
     left: 19em;
 }
