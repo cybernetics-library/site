@@ -251,6 +251,7 @@ h5 {
   margin-bottom: .8em;
   text-decoration-skip: ink;
   text-decoration: underline;
+  line-height: 1.2em;
 }
 
 .lib-org {
@@ -351,7 +352,14 @@ marquee {
 
 .main-tix {
   color: #7213ff !important;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.work-tix {
+  color: #7213ff !important;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 
