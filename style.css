@@ -349,6 +349,13 @@ marquee {
     font-family: 'Steps-Mono';
 }
 
+.main-tix {
+  color: #7213ff !important;
+  font-size: 1em;
+}
+
+
+
 h1 {
   font-family: 'Steps-Mono';
   font-size: 7em;
