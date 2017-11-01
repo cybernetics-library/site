@@ -34,6 +34,7 @@ $(document).ready(function() {
   var l = $("#lib").position();
   var o = $("#organizers").position();
   var s = $("#sponsors").position();
+  var c = $("#code").position();
 
   $('#rn-w').click(function() {
     $('html, body').animate({
@@ -61,6 +62,13 @@ $(document).ready(function() {
   $('#rn-s').click(function() {
     $('html, body').animate({
       scrollTop: s.top
+    }, 500);
+    return false;
+  });
+
+  $('#rn-c').click(function() {
+    $('html, body').animate({
+      scrollTop: c.top
     }, 500);
     return false;
   });

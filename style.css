@@ -383,7 +383,7 @@ padding-bottom: .4em;
   margin-top: 0;
   margin-bottom: 0;
   max-width: 100%;
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(#eee, #4c4b4b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
