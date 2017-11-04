@@ -13,3 +13,28 @@ iframe {
   border: solid 10px #aaf61e;
   margin-bottom: 10em;
 }
+
+#tinycat-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+html{
+  height: 100%;
+}
+
+  iframe {
+    display: none;
+  }
+
+  #tinycat-mobile {
+    display: block;
+    color: #a4f724;
+    margin: auto;
+    text-align: center;
+  }
+
+
+}
