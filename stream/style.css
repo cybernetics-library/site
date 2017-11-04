@@ -8,7 +8,8 @@ html {
 iframe {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 55%;
   height: 50em;
-  border: solid 5px #aaf61e;
+  border: solid 10px #aaf61e;
+  margin-bottom: 10em;
 }
