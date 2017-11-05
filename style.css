@@ -12,13 +12,6 @@
        url('assets/fonts/steps-mono-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('assets/fonts/steps-mono.ttf')  format('truetype') /* Safari, Android, iOS */
 }
-/*
-.popover img {
-    box-shadow: 0px 0px 10px purple;
-    width: 500px;
-    position: absolute;
-    z-index: 4000;
-}*/
 
 
 * {
