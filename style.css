@@ -648,9 +648,15 @@ h1 {
 
     }
 
-    .hotarrows {
-      display: block;
+
+    .codecon {
+        max-width: 90%;
     }
+
+
+      .hotlinks {
+          font-size: 4em !important;
+      }
 
     .desc, .desc2 {
     padding-left: 10px !important;

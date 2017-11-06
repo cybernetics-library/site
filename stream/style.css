@@ -46,9 +46,6 @@ hr {
 
 @media only screen and (max-width: 600px) {
 
-html{
-  height: 100%;
-}
 
   iframe {
     width: 100%;
