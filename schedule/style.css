@@ -31,6 +31,13 @@ html, body {
   text-align: center;
 }
 
+.sched-text {
+  text-align: center;
+}
+
+.sched-text a{
+  color: inherit;
+}
 
 
 .cyberlogo_small {

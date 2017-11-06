@@ -524,14 +524,14 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
 
   .hotlinks {
       text-decoration: underline;
-      color: #7e00ff;
+      color: #6600ff;
       font-weight: 700;
       font-size: 1.4em;
   }
 
 
 .hotlinks:visited {
-    color: #7e00ff;
+    color: #6600ff;
 }
 
 
