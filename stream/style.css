@@ -14,9 +14,34 @@ iframe {
   margin-bottom: 10em;
 }
 
-#tinycat-mobile {
-  display: none;
+.cyberlogo_small {
+  width: 200px;
+  display: block;
+  margin: auto;
 }
+
+
+center {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 0;
+  padding-top: 5em;
+  /*color: #daff6f;*/
+}
+
+hr {
+  padding-top: 5em;
+  width: 85%;
+  display: block;
+  margin: auto;
+    border: 5px dotted white;
+    border-style: none none dashed;
+    /*color: #fff;
+    background-color: #fff;*/
+}
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -26,15 +51,10 @@ html{
 }
 
   iframe {
-    display: none;
+    width: 100%;
   }
 
-  #tinycat-mobile {
-    display: block;
-    color: #a4f724;
-    margin: auto;
-    text-align: center;
-  }
+
 
 
 }

@@ -23,6 +23,51 @@ html, body {
   overflow-x: hidden;
     height: 100%;
 }
+.cyberlogo_small {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.cyberlogo_big {
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+center {
+  display: block;
+  margin: auto;
+  padding-top: 10em;
+  width: 60%;
+  padding-bottom: 0;
+  /*color: #daff6f;*/
+}
+
+
+hr {
+  padding-top: 10em;
+  width: 85%;
+  display: block;
+  margin: auto;
+    border: 5px dotted white;
+    border-style: none none dashed;
+    /*color: #fff;
+    background-color: #fff;*/
+}
+
+iframe {
+  padding-top: 0;
+  display: block;
+  margin: auto;
+  width: 55%;
+  height: 50em;
+  /*border: solid 10px #aaf61e;*/
+}
+
+#tinycat-mobile {
+  display: none;
+}
 
 h1{
   text-align: center;
@@ -115,29 +160,19 @@ h2 {
 
 
 
-/*.schedule p {
-  margin: 0;
-  padding: 0;
-  margin-left: 20px;
-}
 
-.schedule {
-  line-height: 1em;
-  margin: auto;
-  display: block;
-  width: max-content;
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
 
 
 @media only screen and (max-width: 600px) {
 
-html{
-  height: 100%;
+  iframe {
+
+    width: 100%;
+
+    /*border: solid 10px #aaf61e;*/
+  }
+
+
+
+
 }
-
-
-
-
-}*/

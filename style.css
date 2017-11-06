@@ -512,6 +512,14 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
 }
 
 
+.hotlinks {
+  text-decoration: underline;
+  color: #8200ff;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+
 
 
 @media only screen and (max-width: 1312px) {
@@ -607,30 +615,10 @@ h1 {
 }
 
 
-.hotlinks {
-  font-size: .8em !important;
-  text-align: center !important;
-}
-
-.hotarrows {
-  font-size: .9em !important;
-}
-
 }
 
 
-@media only screen and (max-width: 858px) {
 
-  .hotlinks {
-    font-size: .8em !important;
-    text-align: center !important;
-  }
-
-  .hotarrows {
-    visibility: hidden;
-    font-size: .5em !important;
-  }
-}
 
 
 
@@ -643,7 +631,7 @@ h1 {
     }
 
     .hotarrows {
-      visibility: visible;
+      display: block;
     }
 
     .desc, .desc2 {
