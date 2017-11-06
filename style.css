@@ -528,6 +528,10 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
   font-size: 1.3em;
 }
 
+.hotlinks:visited {
+    color: #8200ff;
+}
+
 
 
 
