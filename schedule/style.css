@@ -9,6 +9,7 @@ html {
   background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
     height: 100%;
     width: 100%;
+    font-size: 1.3em;
 }
 
 html, body {
@@ -98,7 +99,7 @@ h2 {
 
     .gif {
       width: 300px;
-          margin-top: 30em;
+          margin-top: 20em;
       padding-bottom: 14em;
     }
 

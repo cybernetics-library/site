@@ -367,14 +367,15 @@ marquee {
     margin: 0 auto;
 }
 
+
 h1 {
   font-family: 'Steps-Mono';
   font-size: 7em;
   text-align: center;
-    margin-left: .9em;
+  margin-left: .9em;
   padding: 0.5em;
   padding-top: .5em;
-padding-bottom: .4em;
+  padding-bottom: .4em;
   font-weight: 400;
   color: #ebebeb;
   background: none;
@@ -510,6 +511,9 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
     padding: 0 3.7em 3em 3.7em;
 }
 
+
+
+
 @media only screen and (max-width: 1312px) {
 
 
@@ -601,7 +605,34 @@ h1 {
     width: 230px;
     padding-bottom: 5em;
 }
+
+
+.hotlinks {
+  font-size: .8em !important;
+  text-align: center !important;
 }
+
+.hotarrows {
+  font-size: .9em !important;
+}
+
+}
+
+
+@media only screen and (max-width: 858px) {
+
+  .hotlinks {
+    font-size: .8em !important;
+    text-align: center !important;
+  }
+
+  .hotarrows {
+    visibility: hidden;
+    font-size: .5em !important;
+  }
+}
+
+
 
 @media only screen and (max-width: 800px) {
 
@@ -609,6 +640,10 @@ h1 {
       font-family: 'Steps-Mono';
       font-size: 6em;
 
+    }
+
+    .hotarrows {
+      visibility: visible;
     }
 
     .desc, .desc2 {
