@@ -164,6 +164,9 @@ h2 {
 
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: .5em;
+  }
 
   iframe {
 
@@ -172,6 +175,9 @@ h2 {
     /*border: solid 10px #aaf61e;*/
   }
 
+.gif {
+  width: 150px;
+}
 
 
 
