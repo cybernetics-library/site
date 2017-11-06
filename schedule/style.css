@@ -23,6 +23,16 @@ html, body {
   overflow-x: hidden;
     height: 100%;
 }
+
+.work-tix, .main-tix {
+  display: block;
+  margin: auto;
+  color: #53f78b;
+  text-align: center;
+}
+
+
+
 .cyberlogo_small {
   width: 200px;
   display: block;
