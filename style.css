@@ -520,9 +520,11 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
     padding: 0 3.7em 3em 3.7em;
 }
 
+.logos.arena {
+    padding: 0 3em 4.5em 3em;
+}
 
-
-  .hotlinks {
+.hotlinks {
       text-decoration: underline;
       color: #6600ff;
       font-weight: 700;
