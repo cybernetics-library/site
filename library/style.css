@@ -6,7 +6,14 @@ html {
 
 iframe {
   display: block;
-  margin: 0 auto 10em auto;
+  margin: auto;
+}
+
+#librarything {
+  width: 55%;
+  height: 50em;
+  /*border: solid 10px #aaf61e;*/
+  margin-bottom: 10em;
 }
 
 .cyberlogo_small {
@@ -14,6 +21,7 @@ iframe {
   display: block;
   margin: auto;
 }
+
 
 center {
   display: block;
@@ -24,8 +32,29 @@ center {
   /*color: #daff6f;*/
 }
 
+hr {
+  padding-top: 5em;
+  width: 85%;
+  display: block;
+  margin: auto;
+    border: 5px dotted white;
+    border-style: none none dashed;
+    /*color: #fff;
+    background-color: #fff;*/
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
+
+
   iframe {
     width: 100%;
   }
+
+
+
+
 }
+
