@@ -524,6 +524,9 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
     padding: 0 3em 4.5em 3em;
 }
 
+.logos.pan {
+    padding: 0 2em 1.5em 2em;
+}
 .hotlinks {
       text-decoration: underline;
       color: #6600ff;
