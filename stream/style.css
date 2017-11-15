@@ -24,6 +24,11 @@ center {
   /*color: #daff6f;*/
 }
 
+.simulation p {
+  max-width: 640px;
+  margin: 0 auto 1em auto;
+}
+
 @media only screen and (max-width: 600px) {
   iframe {
     width: 100%;
