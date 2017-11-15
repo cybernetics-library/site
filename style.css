@@ -320,14 +320,8 @@ marquee {
   color: #ebebeb;
   display: block;
   /*background-color: #ec5332;;*/
-
 }
 
-.top {
-/*border-top: 5px solid #ebebeb !important;*/
-    padding-top: .2em;
-    border-bottom: 5px solid #ebebeb;
-}
 
 .tickets a {
   margin: 0 1em;
@@ -339,12 +333,34 @@ marquee {
   border-top: 5px solid #ebebeb;
   border-bottom: 5px solid #ebebeb;
 }
+/*
+#hottscrolls1 a{
+  font-size: 1.9em;
+  border-bottom: 5px solid #ebebeb;
+}
+
+#hottscrolls2 a{
+  font-size: 1.9em;
+  border-bottom: 5px solid #ebebeb;
+}*/
+
+
 
 
 .tickets-bottom {
   margin-top: 0em;
   border-top: 5px solid #ebebeb;
 }
+
+
+
+.top {
+/*border-top: 5px solid #ebebeb !important;*/
+    padding-top: .2em;
+    border-bottom: 5px solid #ebebeb;
+}
+
+
 
 .year {
 
@@ -524,11 +540,13 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
     padding: 0 3em 4.5em 3em;
 }
 
-.hotlinks {
+.hotlinks{
       text-decoration: underline;
       color: #6600ff;
       font-weight: 700;
       font-size: 1.4em;
+      background-color: hotpink;
+      line-height: 2em;
   }
 
 
@@ -536,6 +554,9 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
     color: #6600ff;
 }
 
+.hotlinks:hover {
+    background-color: none;
+}
 
 
 
