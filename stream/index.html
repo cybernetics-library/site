@@ -27,20 +27,40 @@
 <br><br><br>
 <a href="http://cybernetics.social"><img class="cyberlogo_small" src="../assets/white.png"</img></a>
 <br>
-<center>View the livestream of Cybernetics Conference 2017 below:</center>
+<center>Cybernetics Conference 2017</center>
 <br>
-<iframe id="livestream" src="https://livestream.com/accounts/686369/events/7867233/videos/165094699/player?width=640&height=360&enableInfo=true&defaultDrawer=&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
-
-<hr>
-<div class="simulation">
-    <center>The Cybernetics Conference 2017 Simulation</center>
-    <br>
-    <br>
-    <p>Each attendee has their own Planet which accumulates debris based on the books they've checked out from <a href="/library">our Library</a>. This displays the most recently changed Planet.</p>
-    <iframe id="simulation-planet" src="http://simulation.cybernetics.social/planet" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
-    <br>
-    <p>The Galaxy cycles through questions extracted from books attendees have checked out.</p>
-    <iframe id="simulation-galaxy" src="http://simulation.cybernetics.social/galaxy" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+<div id="overview">
+    <div class="frame">
+        <iframe id="livestream" src="https://livestream.com/accounts/686369/events/7867233/videos/165094699/player?width=640&height=360&enableInfo=true&defaultDrawer=&autoPlay=true&mute=false" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>The Livestream</p>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-planet" src="http://simulation.cybernetics.social/planet" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Planets <span class="show-tooltip">?</span></p>
+        <p class="tooltip">Each attendee has their own <span class="highlight">Planet</span> which accumulates debris based on the books they've checked out from our Library. This displays the most recently changed Planet.</p>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-orrery" src="http://simulation.cybernetics.social/orrery" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Orrery <span class="show-tooltip">?</span></p>
+        <div class="tooltip"><span class="highlight">The Orrery</span> models how the checkouts of attendees interact. Each point is an attendee's Planet.</div>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-galaxy" src="http://simulation.cybernetics.social/galaxy" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Galaxy <span class="show-tooltip">?</span></p>
+        <div class="tooltip"><span class="highlight">The Galaxy</span> cycles through questions extracted from books attendees have checked out.</div>
+    </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function() {
+    $('.show-tooltip')
+        .on('mouseenter', function() {
+            $(this).closest('.frame').find('.tooltip').show();
+        })
+        .on('mouseleave', function() {
+            $(this).closest('.frame').find('.tooltip').hide();
+        });
+});
+</script>
 </body>
 </html>
