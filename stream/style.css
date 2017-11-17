@@ -30,6 +30,7 @@ center {
 .frame {
   width: 40vw;
   height: 50vh;
+  min-height: 480px;
   display: inline-block;
   margin-bottom: 6em;
   position: relative;
