@@ -27,14 +27,52 @@
 <br><br><br>
 <a href="http://cybernetics.social"><img class="cyberlogo_small" src="../assets/white.png"</img></a>
 <br>
-
-<center><h1>CYBERNETICS CONFERENCE LIVESTREAM WILL BE HERE ON NOV 18TH 10AM</h1></center>
-<hr></hr>
-<center>📚 In the meantime, browse the Cybernetics Library Catalog 📚<br>All these texts will be physically present in the Cybernetics Library installation during the conference.</center>
-<br><br>
-<iframe src="https://www.librarycat.org/lib/CyberneticsCon" frameborder="0" onload="scroll(0,0);"></iframe>
-
-
-
+<center>Cybernetics Conference 2017</center>
+<br>
+<div id="overview">
+    <div class="frame">
+        <iframe id="livestream" src="https://livestream.com/accounts/9197973/events/7940973/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=false& mute=false" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>The Livestream</p>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-planet" src="http://simulation.cybernetics.social/planet" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Planets <span class="show-tooltip">?</span></p>
+        <p class="tooltip">Each attendee has their own <span class="highlight">Planet</span> which accumulates debris based on the books they've checked out from our Library. This displays the most recently changed Planet.</p>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-orrery" src="http://simulation.cybernetics.social/orrery" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Orrery <span class="show-tooltip">?</span></p>
+        <div class="tooltip"><span class="highlight">The Orrery</span> models how the checkouts of attendees interact. Each point is an attendee's Planet; similar planets aggregate together.</div>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-galaxy" src="http://simulation.cybernetics.social/galaxy" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Galaxy <span class="show-tooltip">?</span></p>
+        <div class="tooltip"><span class="highlight">The Galaxy</span> cycles through questions extracted from books attendees have checked out.</div>
+    </div>
+    <div class="frame">
+        <iframe class="arena-iframe" src="https://www.are.na/callil-capuozzo/print-are-na-cybernetics-conference/embed" width="100%" height="640" frameborder="0"></iframe>
+        <p>Print Are.na</p>
+    </div>
+    <div class="frame">
+        <iframe allowfullscreen webkitallowfullscreen mozallowfullscreen src="https://video.nest.com/embedded/live/JE0tSeVZgd" frameborder="0" width="100%" height="640"></iframe>
+        <p>Ring</p>
+    </div>
+    <div class="frame">
+        <iframe id="librarything" src="https://www.librarycat.org/lib/CyberneticsCon" frameborder="0" onload="scroll(0,0);"></iframe>
+        <p>The Cybernetics Library</p>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function() {
+    $('.show-tooltip')
+        .on('mouseenter', function() {
+            $(this).closest('.frame').find('.tooltip').show();
+        })
+        .on('mouseleave', function() {
+            $(this).closest('.frame').find('.tooltip').hide();
+        });
+});
+</script>
 </body>
 </html>

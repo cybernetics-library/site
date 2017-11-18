@@ -4,14 +4,9 @@ html {
   background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
 }
 
-
 iframe {
   display: block;
-  margin: auto;
-  width: 55%;
-  height: 50em;
-  /*border: solid 10px #aaf61e;*/
-  margin-bottom: 10em;
+  margin: 0 auto;
 }
 
 .cyberlogo_small {
@@ -19,7 +14,6 @@ iframe {
   display: block;
   margin: auto;
 }
-
 
 center {
   display: block;
@@ -30,28 +24,54 @@ center {
   /*color: #daff6f;*/
 }
 
-hr {
-  padding-top: 5em;
-  width: 85%;
+#overview {
+  text-align: center;
+}
+.frame {
+  width: 40vw;
+  height: 50vh;
+  min-height: 480px;
+  display: inline-block;
+  margin-bottom: 6em;
+  position: relative;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.show-tooltip {
+  display: inline-block;
+  background: rgba(0,0,0,0.2);
+  padding: 0.1em 0.5em;
+  cursor: help;
+  border-radius: 10em;
+}
+.show-tooltip:hover .tooltip {
   display: block;
-  margin: auto;
-    border: 5px dotted white;
-    border-style: none none dashed;
-    /*color: #fff;
-    background-color: #fff;*/
+}
+.tooltip {
+  position: absolute;
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: left;
+  z-index: 2;
+  margin: 0;
+  display: none;
+  top: 1em;
+  left: 1em;
+  right: 1em;
+}
+.highlight {
+  background: #16b34f;
+  padding: 0 0.3em;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-
-
   iframe {
     width: 100%;
   }
-
-
-
-
+  .frame {
+    width: 100%;
+  }
 }
