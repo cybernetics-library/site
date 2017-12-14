@@ -552,9 +552,12 @@ background: linear-gradient(306deg, rgb(207, 210, 53) 0%, #13a0c5 100%);
       color: #6600ff;
       font-weight: 700;
       font-size: 1.4em;
-      background-color: hotpink;
       line-height: 2em;
-  }
+}
+.hotlinks:hover {
+    background: #6600ff;
+    color: white;
+}
 
 
 .hotlinks:visited {
