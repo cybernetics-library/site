@@ -1,0 +1,60 @@
+html {
+  color: #ebebeb;
+  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+#librarything {
+  width: 55%;
+  height: 50em;
+  /*border: solid 10px #aaf61e;*/
+  margin-bottom: 10em;
+}
+
+.cyberlogo_small {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+
+center {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 0;
+  padding-top: 5em;
+  /*color: #daff6f;*/
+}
+
+hr {
+  padding-top: 5em;
+  width: 85%;
+  display: block;
+  margin: auto;
+    border: 5px dotted white;
+    border-style: none none dashed;
+    /*color: #fff;
+    background-color: #fff;*/
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  iframe {
+    width: 100%;
+  }
+
+
+
+
+}
+
