@@ -1,7 +1,7 @@
 html {
   color: #ebebeb;
   font-family: 'Roboto Mono', monospace;
-  background: linear-gradient(120deg, #9c7db5 0%, #7dc8bf 80%);
+  background: linear-gradient(120deg, #9c7db5 0%, #a4c2be 80%);
 }
 
 iframe {
@@ -44,6 +44,13 @@ hr {
     border-style: none none dashed;
     /*color: #fff;
     background-color: #fff;*/
+}
+
+#arena {
+  text-align: center;
+width: 100%;
+display: block;
+margin: auto;
 }
 
 
