@@ -1,7 +1,7 @@
 html {
   color: #ebebeb;
   font-family: 'Roboto Mono', monospace;
-  background: linear-gradient(120deg, #9c7db5 0%, #a4c2be 80%);
+    background: linear-gradient(120deg, #caffb4 0%, #db9df5 80%);
   text-align: center;
 }
 
@@ -35,6 +35,29 @@ iframe {
         padding-right: 2px;
 }
 
+.gif {
+  width: 370px;
+      margin-top: 30em;
+  padding-bottom: 14em;
+}
+
+.centered {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.arrow {
+  left: 14em;
+      top: 7em;
+      margin-left: -13em;
+      position: absolute;
+      z-index: -1;
+      opacity: .7;
+      transform: scaleY(-1);
+      height: 100%;
+}
+
 
 .cyberlogo_small {
   width: 200px;
@@ -45,6 +68,10 @@ iframe {
 
 a {
   color: black;
+}
+
+a:hover {
+  background: yellow;
 }
 
 
@@ -61,14 +88,18 @@ hr {
 
 #arena {
   text-align: center;
-width: 100%;
+width: fit-content;
 display: block;
 margin: auto;
 }
 
 
 
-
+@media only screen and (max-width: 912px) {
+  .arrow {
+        height: 70%;
+  }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -78,7 +109,14 @@ margin: auto;
     width: 100%;
   }
 
+.main {
+  width: 85%;
+}
 
+
+  .arrow {
+        height: 50%;
+  }
 
 
 }
