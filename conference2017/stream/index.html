@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cybernetics Conference Livestream</title>
+
+  <meta property="og:url" content="https://cybernetics.social">
+  <meta property="og:site_name" content="Cybernetics Conference">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cybernetics Conference Livestream">
+  <meta property="og:description" content="Cybernetics Conference 11.18.17 in New York.">  <meta property="og:image" content="https://cybernetics.social/assets/expand.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cybernetics Conference">
+  <meta name="twitter:description" content="Cybernetics Conference Livestream 2017 in New York.">
+  <meta name="twitter:image" content="https://cybernetics.social/assets/expand.jpg">
+
+  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/mr-pixel" type="text/css" /> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/steps-mono" type="text/css" /> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<br><br><br>
+<a href="http://cybernetics.social"><img class="cyberlogo_small" src="../assets/white.png"</img></a>
+<br>
+<center>Cybernetics Conference 2017</center>
+<br>
+<div id="overview">
+    <div class="frame">
+        <iframe id="livestream" src="https://livestream.com/accounts/9197973/events/7940973/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=false& mute=false" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>The Livestream</p>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-planet" src="https://simulation.cybernetics.social/planet" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Planets <span class="show-tooltip">?</span></p>
+        <p class="tooltip">Each attendee has their own <span class="highlight">Planet</span> which accumulates debris based on the books they've checked out from our Library. This displays the most recently changed Planet.</p>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-orrery" src="https://simulation.cybernetics.social/orrery" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Orrery <span class="show-tooltip">?</span></p>
+        <div class="tooltip"><span class="highlight">The Orrery</span> models how the checkouts of attendees interact. Each point is an attendee's Planet; similar planets aggregate together.</div>
+    </div>
+    <div class="frame">
+        <iframe id="simulation-galaxy" src="https://simulation.cybernetics.social/galaxy" width="100%" height="640" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+        <p>The Galaxy <span class="show-tooltip">?</span></p>
+        <div class="tooltip"><span class="highlight">The Galaxy</span> cycles through questions extracted from books attendees have checked out.</div>
+    </div>
+    <div class="frame">
+        <iframe class="arena-iframe" src="https://www.are.na/callil-capuozzo/print-are-na-cybernetics-conference/embed" width="100%" height="640" frameborder="0"></iframe>
+        <p>Print Are.na</p>
+    </div>
+    <div class="frame">
+        <iframe allowfullscreen webkitallowfullscreen mozallowfullscreen src="https://video.nest.com/embedded/live/JE0tSeVZgd" frameborder="0" width="100%" height="640"></iframe>
+        <p>Ring</p>
+    </div>
+    <div class="frame">
+        <iframe id="librarything" src="https://www.librarycat.org/lib/CyberneticsCon" frameborder="0" onload="scroll(0,0);"></iframe>
+        <p>The Cybernetics Library</p>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function() {
+    $('.show-tooltip')
+        .on('mouseenter', function() {
+            $(this).closest('.frame').find('.tooltip').show();
+        })
+        .on('mouseleave', function() {
+            $(this).closest('.frame').find('.tooltip').hide();
+        });
+});
+</script>
+</body>
+</html>

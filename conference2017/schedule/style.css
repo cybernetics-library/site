@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #ebebeb;
+  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(120deg, #0028d1 0%, #a057a1 80%);
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'bagnard';*/
+  font-family: 'Roboto Mono', monospace;
+  font-weight: normal;
+  font-style: normal;
+  max-width: 100%;
+  overflow-x: hidden;
+    height: 100%;
+}
+
+.work-tix, .main-tix {
+  display: block;
+  margin: auto;
+  color: #53f78b;
+  text-align: center;
+}
+
+.sched-text {
+  text-align: center;
+}
+
+.sched-text a{
+  color: inherit;
+}
+
+
+.cyberlogo_small {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.cyberlogo_big {
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+center {
+  display: block;
+  margin: auto;
+  padding-top: 10em;
+  width: 60%;
+  padding-bottom: 0;
+  /*color: #daff6f;*/
+}
+
+
+hr {
+  padding-top: 10em;
+  width: 85%;
+  display: block;
+  margin: auto;
+    border: 5px dotted white;
+    border-style: none none dashed;
+    /*color: #fff;
+    background-color: #fff;*/
+}
+
+iframe {
+  padding-top: 0;
+  display: block;
+  margin: auto;
+  width: 55%;
+  height: 50em;
+  /*border: solid 10px #aaf61e;*/
+}
+
+#tinycat-mobile {
+  display: none;
+}
+
+h1{
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+h2 {
+  text-align: center;
+    padding-bottom: .5em;
+    font-size: 2em;
+    color: #c2bfbf;
+    padding-top: 2em;
+}
+
+  label {
+    display: block;
+    padding: 25px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+		text-align: center;
+    cursor: pointer;
+    position: relative;
+
+		span {
+			display: block;
+			font-size: 6em;
+			line-height: 1;
+			font-weight: 900;
+		}
+  }
+
+		table {
+			width: 100%;
+		}
+
+
+		tr:first-of-type {
+			padding-top: 50px;
+		}
+
+		td {
+			border: 0;
+			vertical-align: top;
+			padding: 15px;
+      width: 25%;
+		}
+
+
+    .time {
+    font-weight: 700;
+    text-align: right;
+    }
+
+		.session-title {
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+
+		.session-description {
+			display: block;
+      margin-right: 15em;
+      color: #c2bfbf;
+		}
+
+
+
+
+    .centered {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .gif {
+      width: 300px;
+          margin-top: 20em;
+      padding-bottom: 14em;
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: .5em;
+  }
+
+  iframe {
+
+    width: 100%;
+
+    /*border: solid 10px #aaf61e;*/
+  }
+
+.gif {
+  width: 150px;
+}
+
+
+
+}
